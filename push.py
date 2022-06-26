@@ -48,7 +48,7 @@ if errorcount!=len(main.memberlist):
             if titledone==False:
                 pushdata['title']='['+str(len(main.memberlist)-errorcount)+'/'+str(len(main.memberlist))+']'+i['status']+'啦'
                 titledone=True
-        pushdata['content']+='<b>mid或X-Litemall-Token:</b>'+i['member']+'<br><b>名称:</b>'+i['name']+'<br>'+i['result']+'<br>'
+        pushdata['content']+='<b>好好学习天天向上</b><br><b>名称:</b>'+i['name']+'<br>'+i['result']+'<br>'
 else:
     pushdata['title']='任务执行失败'
     pushdata['content']='所有mid或X-Litemall-Token皆打卡失败'
