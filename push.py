@@ -4,7 +4,7 @@ with open('result.json','r',encoding='utf8') as origin_file:
 origin=json.loads(origin)
 pushdata={}
 #推送渠道
-pushdata['channel']='wechat'
+pushdata['channel']='mail'
 pushdata['template']='html'
 
 pushdata['content']=''
