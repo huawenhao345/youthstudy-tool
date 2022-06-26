@@ -12,7 +12,7 @@ on:
     - cron: '0 4 * * *'
 
 env:
-  push: true #不需要推送的请改为false
+  push: false #不需要推送的请改为false
 
 jobs:
   youthstudymark:
