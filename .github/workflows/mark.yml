@@ -43,6 +43,9 @@ jobs:
         if: github.event.inputs.previous == 'true'
         run: python previous.py
 
+      - name: list file
+        run: ls -l
+
       - name: Push result to Wechat by pushplus
         if: env.push == 'true'
         run: python push.py
