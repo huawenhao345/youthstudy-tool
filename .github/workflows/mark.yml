@@ -1,15 +1,15 @@
-name: 'GitHub Actions Youthstudy Bot'
+name: "GitHub Actions Youthstudy Bot"
 on:
   workflow_dispatch:
     inputs:
       previous:
-        description: '是否打卡往期课程(true/false)'
+        description: "是否打卡往期课程(true/false)"
         required: true
-        default: 'false'
+        default: "false"
   #以上勿动
   schedule:
     # UTC16:01(北京UTC+8 00:01点)触发任务
-    - cron: '1 16 * * *'
+    - cron: "1 16 * * *"
 
 env:
   push: true #不需要推送的请改为false
@@ -35,7 +35,7 @@ jobs:
 
       - name: Set up env
         run: pip install -r requirements.txt
-          
+
       - name: Run main command
         run: python main.py
 
