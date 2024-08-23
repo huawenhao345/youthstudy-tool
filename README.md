@@ -1,9 +1,5 @@
 # 青年大学习(广东)工具
-![Views](https://views.whatilearened.today/views/github/Chenghow/youthstudy-tool.svg)
-[![stars](https://img.shields.io/github/stars/Chenghow/youthstudy-tool.svg?label=Stars)](https://github.com/Chenghow/youthstudy-tool/stargazers)
-[![forks](https://img.shields.io/github/forks/Chenghow/youthstudy-tool.svg?label=Forks)](https://github.com/Chenghow/youthstudy-tool/network/members)
-[![GitHub contributors](https://img.shields.io/github/contributors/Chenghow/youthstudy-tool?label=Contributors)](https://github.com/Chenghow/youthstudy-tool/graphs/contributors)
-[![LICENSE](https://img.shields.io/github/license/Chenghow/youthstudy-tool?label=License)](https://github.com/Chenghow/youthstudy-tool/blob/master/LICENSE)
+
 ## 支持
 仅支持广东共青团智慧团建系统
 ## 目前支持的功能
